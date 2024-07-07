@@ -23,9 +23,9 @@ class Craw extends CI_Controller{
             if($row->find('td',1)){
                 $title=strip_tags($row->find('td',1)->innerte);
                 $url=$row->find('a',0)->href;
-                $date=$row->find('td',3)->innertext;
+                $date1=$row->find('td',3)->innertext;
                 $picture=$row->find('img',0)->src;
-                $data1=array('title'=>$title, 'date'=>date, 'url'=>$url, 'picture'=>$picture);
+                $data1=array('title'=>$title, 'date1'=>date1, 'url'=>$url, 'picture'=>$picture);
                 if($this->db->insert("tbl_craw",$data1)){
                     $data["message"].="Input succeed";
                 }
