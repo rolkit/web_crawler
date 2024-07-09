@@ -1,11 +1,15 @@
 <?php
-defined("BASEPATH") OR exit('No direct script access allowed');
-class Craw extends CI_Controller{
-    function __construct(){
-        parent::__construct();
-        $this->load->helper('simple_html_dom');
-        $this->load->model('Craw_model');
-    }
+
+namespace App\Controllers;
+
+// defined("BASEPATH") OR exit('No direct script access allowed');
+class Craw extends BaseController{
+    // function __construct(){
+    //     parent ::__construct();
+    //     $this->load->helper('simple_html_dom');
+    //     $this->load->model('Craw_model');
+    // }
+    // 
     public function index(){
         $data["pageTitle"] = "Simple Crawler with PHP Simple HTML DOM Parser";
         $this->load->view('pages/menu', $data);       
@@ -37,4 +41,5 @@ class Craw extends CI_Controller{
         $this->load->view('pages/get_content', $data);
     }
 }
+
 ?>

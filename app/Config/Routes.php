@@ -7,5 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/crawler', 'Crawler::index');
-// $routed->get('/craw', 'Crawler::index');
+// $routes->get('/craw', 'Craw::index');
 // $routes->get('/crawler', 'Crawler::index');
