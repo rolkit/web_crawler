@@ -3,8 +3,8 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-// use DOMDocument;
-// use DOMXPath;
+use DOMDocument;
+use DOMXPath;
 
 class Crawler extends BaseController
 {
