@@ -1,0 +1,259 @@
+CRITICAL - 2024-07-09 07:17:44 --> ErrorException: Undefined variable $routed
+in APPPATH\Config\Routes.php on line 10.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routed', 'C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php', 10)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:17:59 --> ErrorException: Undefined variable $routed
+in APPPATH\Config\Routes.php on line 10.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routed', 'C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php', 10)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:18:12 --> ErrorException: Undefined variable $routed
+in APPPATH\Config\Routes.php on line 10.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routed', 'C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php', 10)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:18:22 --> ErrorException: Undefined variable $routed
+in APPPATH\Config\Routes.php on line 10.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routed', 'C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php', 10)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:18:29 --> ErrorException: Undefined variable $routed
+in APPPATH\Config\Routes.php on line 10.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routed', 'C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php', 10)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\webcrawler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:30:55 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:37:52 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:37:55 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:37:56 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:37:56 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:37:56 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:37:57 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:39:07 --> Error: Undefined constant "App\Controllers\parent"
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:39:15 --> ParseError: syntax error, unexpected identifier "__construct"
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\webcrawler\\app\\Controllers\\Craw.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Craw')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Craw')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Craw', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:39:21 --> Error: Cannot call constructor
+in APPPATH\Controllers\Craw.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:39:32 --> ErrorException: Undefined property: App\Controllers\Craw::$load
+in APPPATH\Controllers\Craw.php on line 9.
+ 1 APPPATH\Controllers\Craw.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Craw::$load', 'C:\\xampp\\htdocs\\webcrawler\\app\\Controllers\\Craw.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Craw->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:42:50 --> ErrorException: Undefined property: App\Controllers\Craw::$load
+in APPPATH\Controllers\Craw.php on line 15.
+ 1 APPPATH\Controllers\Craw.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Craw::$load', 'C:\\xampp\\htdocs\\webcrawler\\app\\Controllers\\Craw.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Craw->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Craw))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:42:53 --> ErrorException: Undefined property: App\Controllers\Craw::$load
+in APPPATH\Controllers\Craw.php on line 15.
+ 1 APPPATH\Controllers\Craw.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Craw::$load', 'C:\\xampp\\htdocs\\webcrawler\\app\\Controllers\\Craw.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Craw->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Craw))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:43:01 --> ErrorException: Undefined property: App\Controllers\Craw::$load
+in APPPATH\Controllers\Craw.php on line 15.
+ 1 APPPATH\Controllers\Craw.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Craw::$load', 'C:\\xampp\\htdocs\\webcrawler\\app\\Controllers\\Craw.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Craw->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Craw))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:53:18 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:53:24 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:53:28 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:54:10 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 07:54:16 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:40:15 --> ErrorException: file_get_contents(https://www.imdb.com/title/tt15398776/): Failed to open stream: HTTP request failed!
+in APPPATH\Controllers\Crawler.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://www.imdb.com/title/tt15398776/): Failed to open stream: HTTP request failed!', 'C:\\xampp\\htdocs\\webcrawler\\app\\Controllers\\Crawler.php', 17)
+ 2 APPPATH\Controllers\Crawler.php(17): file_get_contents('https://www.imdb.com/title/tt15398776/')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:40:33 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:40:42 --> Error: Call to a member function loadHTML() on null
+in APPPATH\Controllers\Crawler.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:40:51 --> ErrorException: file_get_contents(https://www.imdb.com/title/tt15398776/): Failed to open stream: HTTP request failed!
+in APPPATH\Controllers\Crawler.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://www.imdb.com/title/tt15398776/): Failed to open stream: HTTP request failed!', 'C:\\xampp\\htdocs\\webcrawler\\app\\Controllers\\Crawler.php', 17)
+ 2 APPPATH\Controllers\Crawler.php(17): file_get_contents('https://www.imdb.com/title/tt15398776/')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:44:05 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:44:19 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:45:26 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:46:58 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 09:48:22 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
+CRITICAL - 2024-07-09 13:56:23 --> Error: Class "App\Controllers\DOMDocument" not found
+in APPPATH\Controllers\Crawler.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crawler->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crawler))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\webcrawler\\public\\index.php')
