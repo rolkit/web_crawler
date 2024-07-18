@@ -1,0 +1,8 @@
+CRITICAL - 2024-07-18 15:28:06 --> ErrorException: Undefined property: App\Controllers\Craw::$load
+in APPPATH\Controllers\Craw.php on line 14.
+ 1 APPPATH\Controllers\Craw.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Craw::$load', 'C:\\xampp\\htdocs\\web_crawler\\app\\Controllers\\Craw.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Craw->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Craw))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_crawler\\public\\index.php')
